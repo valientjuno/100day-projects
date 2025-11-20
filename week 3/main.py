@@ -1,5 +1,10 @@
 ### Higher Lower Game ###
 
+from art import logo, vs
+from game_data import data
+import random
+
+
 def format_data(account):
     """Takes the account data and returns the printable format."""
     account_name = account["name"]
